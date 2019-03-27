@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navigation style */
+nav{
+    background-color: bisque;
+}
+nav ul{
+    list-style: none;
+    text-align: center
+}
+nav li{
+    display: inline;
+    
+}
+nav a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    
+}
+nav a:hover{
+    background-color:ivory;
+}
+/* end navigation style */
+h1{
+    text-align: center;
+    background-color: beige;
+}
+h2{
+    text-align: center;
+    background-color: beige;
+}
+h3{
+    text-align: center;
+    background-color: beige;
+}
+body{
+    background-color: antiquewhite;
+    font-size: 36px;
+    font-family: sans-serif;
+}
+header{
+    height: 600px;
+    margin-bottom: 10px;
+    background: url(primed-jeld-wen-prehung-doors-thdjw136500966-64_1000.jpg) no-repeat center fixed; 
+}
+ul1{
+    text-align: center center fixed;
+}

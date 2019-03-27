@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navigation style */
+nav{
+    background-color: bisque;
+}
+nav ul{
+    list-style: none;
+    text-align: center
+}
+nav li{
+    display: inline;
+    
+}
+nav a{
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    
+}
+nav a:hover{
+    background-color:ivory;
+}
+/* end navigation style */
+section{
+            height: 600px;
+            margin-bottom: 10px;
+            background: url(hand-door-knob-download-hand-hold-door-knob-for-open-the-door-or-close-the-door-concept-stock-image-hand-painted-door-knobs-australia.jpg) no-repeat center fixed; 
+        }
+body{
+    background-color: antiquewhite;
+    font-size: 36px;
+    font-family: sans-serif;
+}
