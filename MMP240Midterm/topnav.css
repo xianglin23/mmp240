@@ -13,7 +13,6 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 16px;
-  font-family: 'Arapey', serif;
 }
 
 .topnav a:hover {
@@ -24,7 +23,6 @@
 .active {
   background-color: #737373;
   color: #F2F2F2;
-  font-family: 'Arapey', serif;
 }
 
 .topnav .icon {

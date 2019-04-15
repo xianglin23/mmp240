@@ -1,13 +1,14 @@
 .topnav {
   overflow: hidden;
-  background-color: black;
+  background-color: #737373;
+  color: #F2F2F2;
 
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: white;
+  color: #F2F2F2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -15,13 +16,13 @@
 }
 
 .topnav a:hover {
-  background-color: white;
-  color: black;
+  background-color: #737373;
+  color: #737373;
 }
 
 .active {
-  background-color: black;
-  color: white;
+  background-color: #737373;
+  color: #F2F2F2;
 }
 
 .topnav .icon {
@@ -34,3 +35,27 @@
     float: right;
     display: block;
   }
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    /*If navigation button is off, fix padding here after styling text*/
+    padding: 17.25px 17px;
+    
+  }
+    
+  .topnav a.icon{
+    display: block;
+    height: auto;
+    width: auto;
+    /*If navigation button is off, fix padding here after styling text*/
+     padding: 17.25px 17px;
+    }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
