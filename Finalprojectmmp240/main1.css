@@ -1,0 +1,25 @@
+
+header{
+    height: 130px;
+    background: url(sparklestwitterheader.jpg);
+    margin-bottom: 0px auto;
+  }
+  .site{
+  margin-top:20px;
+  height: auto;
+  font-family: 'Arapey', serif;
+  margin-bottom:10px auto;
+
+}
+.side{
+      margin-top: 10px;
+      clear: both;
+      border: solid 1px;
+
+}
+  footer{
+  	  	   margin-top: 10px;
+  	      height: 150px;
+          clear: both;
+          background-color: black;
+  }

@@ -1,0 +1,28 @@
+
+header{
+    height: 130px;
+    background: url(sparklestwitterheader.jpg);
+    margin-bottom: 0px auto;
+  }
+  .main-content{
+    margin-top:10px;
+  height: auto;
+  margin:10px;
+  font-family: 'Arapey', serif;
+
+}
+.image img{
+    display: block;
+    width: 100%;
+    height: auto;
+    min-width: 800px;
+    max-width: 800px;
+    align-content: center;
+}
+.image-caption{
+	margin-top: 10px;
+	font-size: 100%;
+	font-family: 'Arapey', serif;
+	padding: .8em 1em;
+	background: white;
+}

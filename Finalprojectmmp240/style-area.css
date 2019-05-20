@@ -1,0 +1,85 @@
+.site{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(1, 1fr);
+	grid-template-areas: 
+	"title"
+	"righttitle"
+	"masthead"
+	"rightmasthead"
+	"main"
+	"A"
+	"B"
+	"C"
+	"D"
+	"E"
+	"F"
+	"G"
+	"H"
+	"J"
+	"K"
+	;
+}
+.left{
+	grid-area: title;
+}
+.right{
+	grid-area: righttitle;
+
+}
+.center1{
+	grid-area: masthead;
+
+}
+.center2{
+	grid-area: main;
+}
+.center3{
+	grid-area: rightmasthead;
+}
+.left1{
+	grid-area: A;
+}
+.right1{
+	grid-area:B;
+
+}
+.center11{
+	grid-area: C;
+
+}
+.center22{
+	grid-area: D;
+}
+.center33{
+	grid-area: E;
+}
+
+.left11{
+	grid-area: F;
+}
+.right11{
+	grid-area:G;
+
+}
+.center111{
+	grid-area: H;
+
+}
+.center222{
+	grid-area: J;
+}
+.center333{
+	grid-area: K;
+}
+@media only screen and ( min-width: 600px){
+	.site{
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-areas: 
+		"title righttitle masthead main rightmasthead"
+		"A B C D E"
+		"F G H J K"
+		"F G H J K";
+
+	}
+}

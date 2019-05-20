@@ -1,0 +1,50 @@
+
+header{
+    height: 130px;
+    background: url(sparklestwitterheader.jpg);
+    margin-bottom: 0px auto;
+  }
+.main-content{
+    margin-top:10px;
+  height: auto;
+  margin:10px;
+  font-family: 'Arapey', serif;
+
+}
+.site{
+  margin-top:20px;
+  height: auto;
+  font-family: 'Arapey', serif;
+  margin-bottom:10px auto;
+
+}
+.image img{
+    display: block;
+    width: 100%;
+    height: auto;
+    min-width: 600px;
+    max-width: 600px;
+    align-content: center;
+}
+
+.vedio {
+  margin-bottom: 20px auto;
+  font-family: 'Arapey', serif;
+
+}
+footer{
+           margin-top: 10px;
+          height: 150px;
+          clear: both;
+          border: solid 1px;
+          background-color: white;
+
+
+}
+h1{
+
+     font-family: 'Arapey';
+     color: white;
+     font-size: 16px;
+
+}

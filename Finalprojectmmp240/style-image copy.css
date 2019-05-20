@@ -1,0 +1,18 @@
+.featured-image img{
+	display: block;
+    width: 95%;
+    height: auto;
+    min-width: auto;
+    max-width: auto;
+
+
+}
+.featured-image {
+	margin: 1em 0;
+
+}
+.image-caption{
+	font-size: 80%;
+	padding: .8em 1em;
+	background: hsl( 0,0%,85%);
+}

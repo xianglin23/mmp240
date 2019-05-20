@@ -1,0 +1,19 @@
+
+.featured-image img{
+	display: block;
+    width: 100%;
+    height: auto;
+    min-width: auto;
+    max-width: 248.65px;
+}
+.featured-image {
+	margin: 1em 0;
+
+}
+.image-caption{
+	margin-top: 10px;
+	font-size: 100%;
+	font-family: 'Arapey', serif;
+	padding: .6em 1em;
+	background: white;
+}
